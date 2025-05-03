@@ -1,10 +1,4 @@
-# Tell pip where to find the CUDA-11.3 builds of torch/vision/audio
---extra-index-url https://download.pytorch.org/whl/cu113
-
-# PyTorch + CUDA
-torch==1.12.1+cu113
-torchvision==0.13.1+cu113
-torchaudio==0.12.1+cu113
+torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 
 # Core libraries
 accelerate>=0.21.0            # needs to be ≥0.21.0 for peft & co
